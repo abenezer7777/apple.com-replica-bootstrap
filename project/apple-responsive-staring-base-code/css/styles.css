@@ -1,0 +1,235 @@
+/* General Styling*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
+}
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&7 my code start here &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&                      &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+.bg-set {
+  height: 585px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.first-sec {
+  background-image: url(../image/pic/hero_iphone14__fjmsqstr1ceq_large_2x.jpg);
+}
+.second-sec {
+  background-image: url(../image/pic/hero_startframe__dbi4flqyio2u_large.jpg);
+}
+.third-sec {
+  background-image: url(../image/pic/hero__dvsxv8smkkgi_large_2x.jpg);
+}
+.forth-sec-iphone {
+  background-image: url(../image/pic/hero_iphone14pro__e5xbgo5ffhg2_large_2x.jpg);
+}
+.forth-sec-ipad {
+  background-image: url(../image/pic/promo_ipad__fioegapg12qi_large.jpg);
+}
+.fifth-sec-airPod {
+  background-image: url(../image/pic/promo_airpods_holiday__fqg7rt8b4vma_large_2x.jpg);
+}
+.fifth-sec-ultra {
+  background-image: url(../image/pic/promo_apple_watch_ultra__gnsqulvdc4a6_large_2x.jpg);
+}
+.six-sec-pro {
+  background-image: url(../image/pic/promo_ipadpro__ch217v9v7no2_large.jpg);
+}
+.six-sec-watch8 {
+  background-image: url(../image/pic/promo_apple_watch_series_8__ch7rexplmihe_large_2x.jpg);
+}
+.third-sec .logo-wrapper img {
+  width: 150px;
+  height: 56px;
+}
+.fifth-sec-airPod .logo-wrapper img {
+  width: 30px;
+  height: 37px;
+}
+.fifth-sec-ultra .logo-wrapper img,
+.six-sec-watch8 .logo-wrapper img {
+  width: 140px;
+  height: 56px;
+}
+.learn-link li a {
+  text-decoration: none;
+}
+.learn-link li a:hover {
+  text-decoration: underline;
+}
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&7 my code end her &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+
+/* slide css start here */
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+.footer-wrapper ul li a {
+  text-decoration: none;
+}
+.footer-wrapper ul li a:hover {
+  text-decoration: underline;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 767px) {
+  .text-cont,
+  .text-cont2 {
+    width: 80%;
+  }
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  .text-cont {
+    width: 50%;
+  }
+  .text-cont2 {
+    width: 80%;
+  }
+  .forth-sec,
+  .fifth-sec,
+  .six-sec {
+    flex-wrap: nowrap;
+  }
+}
+
+/*Footer styling*/
+.my-apple-wrapper {
+  border-bottom: 1px solid #d2d2d7;
+}
+
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
